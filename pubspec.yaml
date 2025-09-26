@@ -1,0 +1,49 @@
+name: powerbank_rental
+description: "Powerbank rental flow with Google Pay integration"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  go_router: ^12.1.1
+  pay: ^3.2.1
+  mobile_scanner: ^3.5.0
+  http: ^1.2.0
+  url_launcher: ^6.2.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/ava.jpg"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/config/gpay.json
+    - assets/ava.jpg
+    - assets/apple_pay_logo.png
+    - assets/apple_pay_logo_black.png
+    - assets/apple_logo_white.png
+    - assets/apple_pay_logo_Pay.png
+    - assets/apple_pay_logo_cards.png
+    - assets/side_button.png
+    - assets/fonts/SF-Pro-Display-Regular.otf
+    - assets/fonts/SF-Pro-Display-Bold.otf
+
+  fonts:
+    - family: SFProDisplay
+      fonts:
+        - asset: assets/fonts/SF-Pro-Display-Regular.otf
+        - asset: assets/fonts/SF-Pro-Display-Bold.otf
+          weight: 700
