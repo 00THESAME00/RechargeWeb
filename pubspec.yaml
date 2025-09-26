@@ -13,7 +13,7 @@ dependencies:
   go_router: ^12.1.1
   pay: ^3.1.0
   mobile_scanner: ^3.5.0
-  http: ^1.2.0
+  http: ^0.13.6
   url_launcher: ^6.1.11
 
 dev_dependencies:
